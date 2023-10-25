@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>animals websites</title>
+</head>
+
+<body>
+    <h1>חנות החיות המגניבה בארץ!</h1>
+    <hr>
+    <div>
+        <a href="index.html">דף הבית</a>
+        <a class="animals" href="products.html">חיות</a>
+        <a class="contact" href="contact.html">צרו קשר</a>
+    </div>
+    <br>
+    <br>
+
+    <p id="paragraph">צרו קשר:</p>
+    <form action="save.html">
+
+        <label>שם פרטי:</label>
+        <input class="firstName" type="text" name="firstName">
+        <br>
+        <label>שם משפחה:</label>
+        <input type="text" name="lastName">
+        <br>
+
+        <label for="radio">מין:</label>
+        <label class="gender1" for="radio1">זכר</label>
+        <input type="radio" name="gender" id="radio1">
+        <br>
+        <label class="gender2" for="radio2">נקבה</label>
+        <input type="radio" name="gender" id="radio2">
+        <br>
+        <label>עיר</label>
+        <select>
+            <option selected disabled>בחר עיר...</option>
+            <option>מודיעין</option>
+            <option>ירושלים</option>
+            <option>תל אביב </option>
+            <option>חיפה</option>
+        </select>
+        <br>
+        <label>הודעה:</label>
+        <textarea></textarea>
+        <br>
+        <br>
+        <button class="send" type="submit">שלח</button>
+        <button type="reset">נקה</button>
+
+
+
+    </form>
+
+
+
+
+    <div>
+        <p class="copyrights">כל הזכויות שמורות &copy;</p>
+    </div>
+</body>
+
+</html>
